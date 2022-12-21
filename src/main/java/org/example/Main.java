@@ -2,7 +2,13 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        new Main().run1();
+        new Main().run2();
+    }
+
+    private void run2() {
+        String name = "Shirt";
+        double cost = 450.769204;
+        System.out.printf("Товар: %s; стоит: %.2f грн",name,cost);
     }
 
     private void run1() {
