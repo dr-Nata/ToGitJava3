@@ -11,6 +11,7 @@ public class Main {
         int n = 5;
         System.out.printf("Товар: %s; стоит: %18.2f грн",name,cost);
         System.out.printf("За %d  %s  вы заплатите %18.2f грн", n, name,cost*n);
+        System.out.println("commit run3");
     }
 
     private void run2() {
